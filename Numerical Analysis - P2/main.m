@@ -104,7 +104,7 @@ xg = xgg;
 while max(v)>0.0001
     jj=jj+1;
     if jj>1000
-        disp('the 3th method isnt converge');
+        disp('the 3th method isnt converging');
         break;
     end
 
@@ -136,7 +136,7 @@ v(1,1)=1;
 while max(v)>0.0001
     jjj=jjj+1;
     if jjj>1000
-        disp('the 4th method isnt converge');
+        disp('the 4th method isnt converging');
         break;
     end
 
